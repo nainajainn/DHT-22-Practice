@@ -42,7 +42,7 @@ speed <- as.numeric(speed)
 
 # what if the user enters their speed is "fast"
 # check if user response is numeric
-is (is.na(speed)) {
+if (is.na(speed)) {
   print("Enter a number please! Quitting program.")
 } else {
   # user input is numeric. Process speed.
